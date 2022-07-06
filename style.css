@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body p {
+    color: gray;
+}
+
 .central-area {
     text-align: center;
 }
@@ -13,6 +17,7 @@ body {
 
 .central-area p {
     margin-bottom: 6%;
+    color: white;
 }
 
 .sec-1 {
@@ -68,7 +73,7 @@ body {
 }
 
 #color-cd {
-    color: lightslategray;
+    color: rgb(140, 147, 155);
     padding-bottom: 28px;
     width: 70%;
     margin-left: 15%;
@@ -125,4 +130,58 @@ body {
 
 #bottom-space {
     margin-bottom: 10%;
+}
+
+.sec-5 {
+    margin-top: 6%;
+}
+
+.mail-part {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 4%;
+    padding-top: 5%;
+
+}
+
+.mail-box {
+    border-radius: 3%;
+    box-shadow: 0px 0px 2px lightblue;
+    padding-right: 10%;
+    padding-left: 2%;
+    color: gray;
+    background-color: rgb(197, 228, 247);
+}
+
+.button-box {
+    border-radius: 3%;
+    box-shadow: 0px 0px 2px lightblue;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: rgb(219, 66, 66);
+    color: white;
+}
+
+#bg-color {
+    background-color: bisque;
+    height: 150px;
+    width: 65%;
+    margin-left: 20%;
+}
+
+#last-part {
+    background-color: rgb(15, 14, 14);
+    text-align: center;
+    margin-top: 12%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#heading {
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(240, 35, 35);
+}
+
+.color-part {
+    color: white;
 }
