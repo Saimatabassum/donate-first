@@ -73,3 +73,35 @@ body {
     width: 70%;
     margin-left: 15%;
 }
+
+.sided-box {
+    display: flex;
+    width: 90%;
+    margin-left: 10%;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.every-box {
+    margin-right: 5%;
+    padding: 5% 2%;
+    border-radius: 3%;
+}
+
+#box-1 {
+    background-color: rgb(233, 252, 203);
+    width: 95%;
+}
+
+#box-2 {
+    background-color: rgb(255, 236, 239);
+    width: 95%;
+}
+
+.box-3 {
+    background-color: rgb(191, 255, 239);
+}
+
+.box-3 img {
+    width: 50px;
+}
